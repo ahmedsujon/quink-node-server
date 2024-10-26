@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
 
     socket.on('join', (username) => {
         users[socket.id] = username; // Store username with socket ID
-        console.log(`${username} joined the chat`);
+        console.log(${username} joined the chat);
     });
 
     socket.on('disconnect', () => {
